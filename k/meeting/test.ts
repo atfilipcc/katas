@@ -6,7 +6,7 @@ export function meeting(s: string): string {
     const last = element.substr(element.indexOf(':') +1).toUpperCase();
     movedNames[i] = `(${last}, ${first})`;
     }
-  return movedNames.sort((a, b) : number => a.localeCompare(b)).join('')
+  return movedNames.sort().join('')
 }
 
 console.log(meeting('Alexis:Wahl;John:Bell;Victoria:Schwarz;Abba:Dorny;Grace:Meta;Ann:Arno;Madison:STAN;Alex:Cornwell;Lewis:Kern;Megan:Stan;Alex:Korn'))

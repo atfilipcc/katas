@@ -9,7 +9,7 @@ function meeting(s) {
         var last = element.substr(element.indexOf(':') + 1).toUpperCase();
         movedNames[i] = "(" + last + ", " + first + ")";
     }
-    return movedNames.sort(function (a, b) { return a.localeCompare(b); }).join('');
+    return movedNames.sort().join('');
 }
 exports.meeting = meeting;
 console.log(meeting('Alexis:Wahl;John:Bell;Victoria:Schwarz;Abba:Dorny;Grace:Meta;Ann:Arno;Madison:STAN;Alex:Cornwell;Lewis:Kern;Megan:Stan;Alex:Korn'));
