@@ -27,4 +27,4 @@ exports.dirReduc = dirReduc;
 console.log(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]));
 // For hver retning i array
 // Loop gjennom de resterende retningene for å se om det er en motsatt
-//# sourceMappingURL=test.js.map
+//# sourceMappingURL=dir.js.map
